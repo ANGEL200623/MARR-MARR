@@ -48,7 +48,7 @@ body{
 
     color:white;
 
-    font-size:3em;
+    font-size:2em;
 
     cursor:pointer;
 
@@ -64,28 +64,31 @@ body{
 
 .container{
 
-    width:95%;
+    width:100%;
 
-    max-width:550px;
+    max-width:none;
 
-    margin:auto;
-
-    padding:30px 15px 50px;
+   
+    padding:20px;
 }
 
 /* Fotos */
 
 .photo{
 
-    height: 750px;
+    height: auto;
 
-    width:90%;
+    width:100%;
 
     border-radius:25px;
 
     display:block;
 
     margin:auto;
+
+    aspect-ratio: 3/4;
+
+    object-fit: cover;
 
     transition:opacity .8s ease;
 
@@ -125,7 +128,7 @@ body{
 
 .message{
 
-    text-align:center;
+    text-align:left;
 
     margin-top:35px;
 }
