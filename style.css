@@ -154,7 +154,7 @@ h2{
 
     margin-top:30px;
 
-    font-size:1.3rem;
+    font-size:2.5em;
 }
 
 span{
@@ -164,6 +164,8 @@ span{
     margin-top:20px;
 
     color:#bdbdbd;
+
+    font-size: 3em;
 }
 
 /* Celulares */
